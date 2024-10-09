@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    
+
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #0B132B; 
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+
+main {
+    padding: 2rem;
+    border-radius: 12px ;
+    
+}
+
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-direction: row-reverse;
+    
+}
+
+.primeira p {
+    max-width: 40rem;
+    margin-right: 2rem;
+}
+
+.primeira img {
+    width: 15rem;
+    border-radius: 18px;
+}
+
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B132B; 
+    color: #fff;
+    height: 25rem;
+    margin-bottom: 3rem;
+    padding: 6rem;
+    gap: 1.5rem;
+    border-radius: 18px; 
+}
+
+
+
+.segunda img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.segunda p {
+    max-width: 25rem;
+    margin: 0 1.5rem;
+
+}
+
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.terceira img {
+    width: 12rem;
+    height: 8rem;
+    object-fit: cover; 
+    border-radius: 18px; 
+}
